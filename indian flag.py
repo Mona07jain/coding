@@ -1,0 +1,42 @@
+import turtle
+t = turtle.Turtle()
+t.forward(250)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(250)
+t.left(90)
+t.forward(30)
+
+t.forward(30)
+t.left(90)
+t.forward(250)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(250)
+t.left(90)
+
+t.forward(60)
+t.left(90)
+t.forward(250)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.forward(250)
+t.left(90)
+
+t.penup()
+t.goto(115,-15)
+t.pendown()
+
+t.circle(15)
+t.penup()
+t.goto(129,-15)
+t.pendown()
+t.pensize(0.2)
+
+for i in range(24):
+    t.forward(15)
+    t.backward(15)
+    t.left(15)
