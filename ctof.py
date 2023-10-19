@@ -1,4 +1,4 @@
-a = float(input('tem in f'))
-b=(a-32)*5/9
-print('tem in c is'+ str(b))
+a = float(input('tem in c'))
+b=(a*9/5)+32
+print('tem in f is'+ str(b))
 
