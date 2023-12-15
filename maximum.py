@@ -1,6 +1,15 @@
-import random
-numbers=[random.randint(1,10000) for _ in range(100)]
-maximum = max(numbers)
-print(f'the max number is {maximum}')     
+a=10
+b=7
+c=12
+if a>b:
+    if a>c:
+        print(a)
+    else:
+        print(c)
+else:
+    if b>c:
+        print(b)
+    else:
+        print(c)    
 
 
